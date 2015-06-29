@@ -16,11 +16,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class TriangleCountImpl {
+public class TriangleCountImplMult {
     private byte[] input;
     private int numCores;
 
-    public TriangleCountImpl(byte[] input, int numCores) {
+    public TriangleCountImplMult(byte[] input, int numCores) {
 	this.input = input;
 	this.numCores = numCores;
     }
